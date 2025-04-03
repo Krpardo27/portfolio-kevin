@@ -4,12 +4,11 @@ import Header from "../components/Header";
 
 const MainLayout = () => {
   return (
-    <>
-      <Header />   
-      <div className="py-10">
+    <div className="">
+      <main className="">
         <Outlet />
-      </div>
-    </>
+      </main>
+    </div>
   );
 };
 
