@@ -2,6 +2,5 @@
   "name": "Kevin Pardo Veas",
   "profession": "Desarrollador Frontend",
   "shortBio": "Desarrollador Frontend con experiencia en React JS. Apasionado por crear interfaces intuitivas y dinámicas, con enfoque en rendimiento y accesibilidad.",
-  "fullBio": "Soy un desarrollador frontend con experiencia en la creación de SPA y aplicaciones interactivas usando React JS, TypeScript, Tailwind CSS y el stack MERN.\n Me especializo en construir interfaces modernas, optimizadas y accesibles, asegurando una experiencia fluida para los usuarios.\n Con [X] años de experiencia, he trabajado en diversos proyectos que incluyen plataformas web, sistemas de gestión y aplicaciones dinámicas.\n Disfruto resolver problemas complejos y mejorar el rendimiento de las aplicaciones.\nSiempre estoy en constante aprendizaje, explorando nuevas tecnologías y mejores prácticas en desarrollo frontend.\nActualmente, busco proyectos desafiantes donde pueda aplicar mis habilidades y seguir creciendo como profesional.",
-  "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+  "perfil": "perfil.jpg"
 }
