@@ -7,6 +7,9 @@ export default {
         primary: ["Inter", "sans-serif"],
         secondary: ["Poppins", "sans-serif"],
       },
+      backgroundImage: {
+        'portfolio': "url('/bg-dark.png')",
+      },
     },
   },
   plugins: [],

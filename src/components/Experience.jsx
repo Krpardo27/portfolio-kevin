@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Experience = () => {
   return (
-    <div id='experience' className='h-screen'>Experience</div>
-  )
-}
+    <section className="h-screen flex items-center justify-center bg-gray-100">
+      <div>
+        <h2 className="text-4xl font-semibold">Experience</h2>
+      </div>
+    </section>
+  );
+};
 
-export default Experience
+export default Experience;
