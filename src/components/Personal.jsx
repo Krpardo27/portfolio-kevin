@@ -6,7 +6,7 @@ const Personal = () => {
   const { name, perfil } = personal;
 
   return (
-    <div className="text-left flex flex-col justify-around p-5 h-[300px] bg-[#1a1a1a]">
+    <div className="text-left flex flex-col justify-around lg:p-5 p-2 bg-[#1a1a1a]">
       <div className="flex justify-center items-center">
         <img
           src={`${perfil}`}

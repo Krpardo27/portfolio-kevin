@@ -14,19 +14,19 @@ const Navbar = () => {
   };
 
   return (
-    <nav>
-      <ul className="w-full flex flex-col items-start ">
+    <nav className="hidden lg:block bg-[#1a1a1a]">
+      <ul className="w-full flex flex-col items-start">
         <li
           className={`${
             activeLink === "about" ? "text-[#99f68b] bg-[#242527] " : ""
-          } w-full px-5 py-3 text-left hover:bg-[#242527] cursor-pointer group`}
+          } w-full px-5 py-3 lg:text-left text-center hover:bg-[#242527] cursor-pointer group`}
         >
           <a
             href="#about"
             onClick={() => handleClick("about")}
-            className="flex items-center gap-2 group-hover:text-[#99f68b]"
+            className="flex items-center gap-2 group-hover:text-[#99f68b] justify-center lg:justify-start"
           >
-            <HiMiniIdentification className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
+            <HiMiniIdentification className="group-hover:scale-125 transition-all duration-300 text-[24px] " />
             Sobre mí
           </a>
         </li>
@@ -38,9 +38,9 @@ const Navbar = () => {
           <a
             href="#education"
             onClick={() => handleClick("education")}
-            className="flex items-center gap-2 group-hover:text-[#99f68b]"
+            className="flex items-center gap-2 group-hover:text-[#99f68b] justify-center lg:justify-start"
           >
-            <HiMiniIdentification className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
+            <IoMdSchool className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
             Educación
           </a>
         </li>
@@ -52,9 +52,9 @@ const Navbar = () => {
           <a
             href="#skills"
             onClick={() => handleClick("skills")}
-            className="flex items-center gap-2 group-hover:text-[#99f68b]"
+            className="flex items-center gap-2 group-hover:text-[#99f68b] justify-center lg:justify-start"
           >
-            <HiMiniIdentification className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
+            <FaTools className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
             Habilidades
           </a>
         </li>
@@ -66,9 +66,9 @@ const Navbar = () => {
           <a
             href="#experience"
             onClick={() => handleClick("experience")}
-            className="flex items-center gap-2 group-hover:text-[#99f68b]"
+            className="flex items-center gap-2 group-hover:text-[#99f68b] justify-center lg:justify-start"
           >
-            <HiMiniIdentification className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
+            <MdWork className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
             Experiencia
           </a>
         </li>
@@ -80,10 +80,10 @@ const Navbar = () => {
           <a
             href="#portfolio"
             onClick={() => handleClick("portfolio")}
-            className="flex items-center gap-2 group-hover:text-[#99f68b]"
+            className="flex items-center gap-2 group-hover:text-[#99f68b] justify-center lg:justify-start"
           >
-            <HiMiniIdentification className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
-            Portafolio
+            <GoFileDirectoryFill className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
+            Proyectos
           </a>
         </li>
         <li
@@ -94,9 +94,9 @@ const Navbar = () => {
           <a
             href="#logros"
             onClick={() => handleClick("logros")}
-            className="flex items-center gap-2 group-hover:text-[#99f68b]"
+            className="flex items-center gap-2 group-hover:text-[#99f68b] justify-center lg:justify-start"
           >
-            <HiMiniIdentification className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
+            <GiAchievement className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
             Logros
           </a>
         </li>
