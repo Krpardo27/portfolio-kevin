@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import { HiMiniIdentification } from "react-icons/hi2";
-import { IoMdSchool } from "react-icons/io";
-import { FaTools } from "react-icons/fa";
+
 import { MdWork, MdContactPhone } from "react-icons/md";
 import { GoFileDirectoryFill } from "react-icons/go";
 import { GiAchievement } from "react-icons/gi";
@@ -18,87 +18,72 @@ const Navbar = () => {
       <ul className="w-full flex flex-col items-start">
         <li
           className={`${
+            activeLink === "/" ? "text-[#99f68b] bg-[#242527] " : ""
+          } w-full px-5 py-3 lg:text-left text-center hover:bg-[#242527] cursor-pointer group border-b border-[#1f2022]`}
+        >
+          <Link
+            to="/"
+            onClick={() => handleClick("/")}
+            className="flex items-center gap-2 group-hover:text-[#99f68b] justify-center lg:justify-start"
+          >
+            
+          </Link>
+        </li>
+        <li
+          onClick={() => handleClick("/about")}
+          className={`${
             activeLink === "about" ? "text-[#99f68b] bg-[#242527] " : ""
-          } w-full px-5 py-3 lg:text-left text-center hover:bg-[#242527] cursor-pointer group`}
+          } w-full px-5 py-3 lg:text-left text-center hover:bg-[#242527] cursor-pointer group border-b border-[#1f2022]`}
         >
-          <a
-            href="#about"
-            onClick={() => handleClick("about")}
+          <Link
+            to="/about"
             className="flex items-center gap-2 group-hover:text-[#99f68b] justify-center lg:justify-start"
           >
-            <HiMiniIdentification className="group-hover:scale-125 transition-all duration-300 text-[24px] " />
-            Sobre mí
-          </a>
+            <HiMiniIdentification /> Sobre mí
+          </Link>
         </li>
         <li
+          onClick={() => handleClick("/experiencia")}
           className={`${
-            activeLink === "education" ? "text-[#99f68b] bg-[#242527] " : ""
-          } w-full px-5 py-3 text-left hover:bg-[#242527] cursor-pointer group`}
+            activeLink === "experiencia" ? "text-[#99f68b] bg-[#242527] " : ""
+          } w-full px-5 py-3 text-left hover:bg-[#242527] cursor-pointer group border-b border-[#1f2022]`}
         >
-          <a
-            href="#education"
-            onClick={() => handleClick("education")}
-            className="flex items-center gap-2 group-hover:text-[#99f68b] justify-center lg:justify-start"
-          >
-            <IoMdSchool className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
-            Educación
-          </a>
-        </li>
-        <li
-          className={`${
-            activeLink === "skills" ? "text-[#99f68b] bg-[#242527] " : ""
-          } w-full px-5 py-3 text-left hover:bg-[#242527] cursor-pointer group`}
-        >
-          <a
-            href="#skills"
-            onClick={() => handleClick("skills")}
-            className="flex items-center gap-2 group-hover:text-[#99f68b] justify-center lg:justify-start"
-          >
-            <FaTools className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
-            Habilidades
-          </a>
-        </li>
-        <li
-          className={`${
-            activeLink === "experience" ? "text-[#99f68b] bg-[#242527] " : ""
-          } w-full px-5 py-3 text-left hover:bg-[#242527] cursor-pointer group`}
-        >
-          <a
-            href="#experience"
-            onClick={() => handleClick("experience")}
+          <Link
+            to="/experiencia"
             className="flex items-center gap-2 group-hover:text-[#99f68b] justify-center lg:justify-start"
           >
             <MdWork className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
             Experiencia
-          </a>
+          </Link>
         </li>
+
         <li
           className={`${
-            activeLink === "portfolio" ? "text-[#99f68b] bg-[#242527] " : ""
-          } w-full px-5 py-3 text-left hover:bg-[#242527] cursor-pointer group`}
+            activeLink === "about" ? "text-[#99f68b] bg-[#242527] " : ""
+          } w-full px-5 py-3 lg:text-left text-center hover:bg-[#242527] cursor-pointer group border-b border-[#1f2022]`}
         >
-          <a
-            href="#portfolio"
-            onClick={() => handleClick("portfolio")}
+          <Link
+            to="/proyectos"
+            onClick={() => handleClick("proyectos")}
             className="flex items-center gap-2 group-hover:text-[#99f68b] justify-center lg:justify-start"
           >
             <GoFileDirectoryFill className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
             Proyectos
-          </a>
+          </Link>
         </li>
         <li
           className={`${
-            activeLink === "logros" ? "text-[#99f68b] bg-[#242527] " : ""
-          } w-full px-5 py-3 text-left hover:bg-[#242527] cursor-pointer group`}
+            activeLink === "about" ? "text-[#99f68b] bg-[#242527] " : ""
+          } w-full px-5 py-3 lg:text-left text-center hover:bg-[#242527] cursor-pointer group border-b border-[#1f2022]`}
         >
-          <a
-            href="#logros"
-            onClick={() => handleClick("logros")}
-            className="flex items-center gap-2 group-hover:text-[#99f68b] justify-center lg:justify-start"
+          <Link
+            to="/contacto"
+            className={`${
+              activeLink === "experiencia" ? "text-[#99f68b] bg-[#242527] " : ""
+            } w-full px-5 py-3 text-left hover:bg-[#242527] cursor-pointer group border-b border-[#1f2022]`}
           >
-            <GiAchievement className="group-hover:scale-125 transition-all duration-300 text-[24px]" />
-            Logros
-          </a>
+            Contacto
+          </Link>
         </li>
       </ul>
     </nav>

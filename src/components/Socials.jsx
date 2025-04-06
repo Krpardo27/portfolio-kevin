@@ -5,30 +5,41 @@ import { BsFillBuildingsFill } from "react-icons/bs";
 
 const Socials = () => {
   return (
-    <div className="bg-[#1a1a1a] flex lg:flex-row justify-center items-center flex-col gap-5 mt-5 w-full lg:p-10 p-5">
-      <p className="flex items-center gap-2 text-[#989898] font-secondary text-[14px]  p-2">
-        <BsFillBuildingsFill className="" />
-        PRISA Media Chile
-      </p>
-      <a
-        href=""
-        className="text-[#989898] font-secondary text-[14px] flex items-center gap-2  p2-2"
-      >
-        <BiLogoGmail /> kevin.pardov26@gmail.com
-      </a>
-      <a
-        href=""
-        className="text-[#989898] font-secondary text-[14px] flex items-center gap-2  p2-2"
-      >
-        <FaLinkedinIn /> kevinpardoveas
-      </a>
-      <a
-        href=""
-        className="text-[#989898] font-secondary text-[14px] flex items-center gap-2 p-2"
-      >
-        <FaGithub />
-        Krpardo27
-      </a>
+    <div>
+      <div className="grid lg:grid-cols-4 grid-cols-2 w-full gap-5 mt-5 lg:p-10 p-5">
+        <div className="flex w-full justify-center items-center ">
+          <p className="flex items-center gap-2 text-[#989898] font-secondary text-[14px] p-2 hover:text-[#e1e8f0] hover:transition-all duration-300 cursor-pointer">
+            <BsFillBuildingsFill className="" />
+            PRISA Media Chile
+          </p>
+        </div>
+        <div className="flex w-full justify-center items-center">
+          <a
+            href=""
+            className="text-[#989898] font-secondary text-[14px] flex items-center gap-2  p-2 hover:text-[#e1e8f0] hover:transition-all duration-300"
+          >
+            <BiLogoGmail /> kevin.pardov26@gmail.com
+          </a>
+        </div>
+
+        <div className="flex w-full justify-center items-center">
+          <a
+            href=""
+            className="text-[#989898] font-secondary text-[14px] flex items-center gap-2  p-2 hover:text-[#e1e8f0] hover:transition-all duration-300"
+          >
+            <FaLinkedinIn /> kevinpardoveas
+          </a>
+        </div>
+        <div className="flex w-full justify-center items-center">
+          <a
+            href=""
+            className="text-[#989898] font-secondary text-[14px] flex items-center gap-2 p-2 hover:text-[#e1e8f0] hover:transition-all duration-300"
+          >
+            <FaGithub />
+            Krpardo27
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
