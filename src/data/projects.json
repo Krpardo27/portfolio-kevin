@@ -5,7 +5,7 @@
     "description": "Plataforma de comercio electrónico completa con catálogo de productos, carrito de compras y procesamiento de pagos.",
     "image": "https://images.unsplash.com/photo-1661956602116-aa6865609028?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8ZWNvbW1lcmNlfGVufDB8fDB8fHww",
     "liveUrl": "https://myecommerce-project.netlify.app",
-    "githubUrl": "https://github.com/janedoe/ecommerce-platform",
+    "githubUrl": "https://github.com/Krpardo27/portfolio-kevin",
     "tags": ["React", "Node.js", "MongoDB", "Stripe"]
   },
   {
@@ -23,7 +23,7 @@
     "description": "Panel de control del clima que muestra pronósticos actuales y futuros para múltiples ubicaciones.",
     "image": "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D",
     "liveUrl": "https://weather-dashboard-app.netlify.app",
-    "githubUrl": "https://github.com/janedoe/weather-dashboard",
+    "githubUrl": "https://github.com/Krpardo27/portfolio-kevin",
     "tags": ["JavaScript", "OpenWeather API", "Chart.js"]
   },
   {

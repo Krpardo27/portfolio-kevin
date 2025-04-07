@@ -10,11 +10,9 @@ const MobileNavbar = () => {
   const location = useLocation();
 
   return (
-    <div>
-      {/* Botón para abrir/cerrar el menú en móvil */}
-
+    <>
       {/* Menú en la parte inferior (solo en móvil) */}
-      <div className=" lg:hidden fixed bottom-0 left-0 w-full bg-[#1a1a1a] p-4 border-t border-[#1f2022]">
+      <div className=" lg:hidden fixed bottom-0 left-0 w-full dark:bg-[#1a1a1a] bg-[#FBFBFB] lg:p-4 p-2 z-50 shadow-xl">
         <ul className="flex justify-between">
           <li className="w-full text-center">
             <Link
@@ -22,10 +20,10 @@ const MobileNavbar = () => {
               className={`${
                 location.pathname === "/"
                   ? "text-[#99f68b] lg:before:content-[''] lg:before:absolute lg:before:left-0 lg:before:inset-y-0 lg:before:my-auto lg:before:h-10 lg:before:w-1 lg:before:bg-[#99f68b]"
-                  : "text-white"
-              } flex flex-col lg:flex-row items-center justify-center gap-1`}
+                  : "text-grisOscuro dark:text-white"
+              } flex flex-col lg:flex-row items-center justify-center gap-1 text-[14px]`}
             >
-              <HiMiniIdentification className="lg:text-[16px] text-[20px]" />
+              <HiMiniIdentification className="lg:text-[16px] text-[16px] text-grisOscuro dark:text-white" />
               Sobre mí
             </Link>
           </li>
@@ -35,10 +33,10 @@ const MobileNavbar = () => {
               className={`${
                 location.pathname === "/experiencia"
                   ? "text-[#99f68b] lg:before:content-[''] lg:before:absolute lg:before:left-0 lg:before:inset-y-0 lg:before:my-auto lg:before:h-10 lg:before:w-1 lg:before:bg-[#99f68b]"
-                  : "text-white"
-              } flex flex-col lg:flex-row items-center justify-center gap-1`}
+                  : "text-grisOscuro dark:text-white"
+              } flex flex-col lg:flex-row items-center justify-center gap-1 text-[14px]`}
             >
-              <MdWork className="lg:text-[16px] text-[20px]" />
+              <MdWork className="lg:text-[16px] text-[16px] text-grisOscuro dark:text-white" />
               Experiencia
             </Link>
           </li>
@@ -48,10 +46,10 @@ const MobileNavbar = () => {
               className={`${
                 location.pathname === "/proyectos"
                   ? "text-[#99f68b] lg:before:content-[''] lg:before:absolute lg:before:left-0 lg:before:inset-y-0 lg:before:my-auto lg:before:h-10 lg:before:w-1 lg:before:bg-[#99f68b]"
-                  : "text-white"
-              } flex flex-col lg:flex-row items-center justify-center gap-1`}
+                  : "text-grisOscuro dark:text-white"
+              } flex flex-col lg:flex-row items-center justify-center gap-1 text-[14px]`}
             >
-              <GoFileDirectoryFill className="lg:text-[16px] text-[20px]" />
+              <GoFileDirectoryFill className="lg:text-[16px] text-[16px] text-grisOscuro  dark:text-white" />
               Proyectos
             </Link>
           </li>
@@ -61,16 +59,16 @@ const MobileNavbar = () => {
               className={`${
                 location.pathname === "/contacto"
                   ? "text-[#99f68b] lg:before:content-[''] lg:before:absolute lg:before:left-0 lg:before:inset-y-0 lg:before:my-auto lg:before:h-10 lg:before:w-1 lg:before:bg-[#99f68b]"
-                  : "text-white"
-              } flex flex-col lg:flex-row items-center justify-center gap-1`}
+                  : "text-grisOscuro dark:text-white"
+              } flex flex-col lg:flex-row items-center justify-center gap-1 text-[14px] `}
             >
-              <MdContactPhone className="lg:text-[16px] text-[20px]" />
+              <MdContactPhone className="lg:text-[16px] text-[16px] text-grisOscuro  dark:text-white" />
               Contacto
             </Link>
           </li>
         </ul>
       </div>
-    </div>
+    </>
   );
 };
 

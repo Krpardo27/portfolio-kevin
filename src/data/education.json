@@ -1,0 +1,27 @@
+[
+  {
+    "institution": "Adalid CORFO",
+    "title": "Especialización en Desarrollo de Aplicaciones Front-End",
+    "date": "2024 - 2025",
+    "img": "adalid.png"
+  },
+
+  {
+    "institution": "CoderHouse",
+    "title": "Certificado JavaScript",
+    "date": "2022",
+    "img": "coderhouse.png"
+  },
+  {
+    "institution": "CoderHouse",
+    "title": "Certificado React JS",
+    "date": "2022",
+    "img": "coderhouse.png"
+  },
+  {
+    "institution": "Instituto Profesional AIEP",
+    "title": "Técnico en Programación y Análisis de Sistemas",
+    "date": "2019 - 2022",
+    "img": "aiep.svg"
+  }
+]

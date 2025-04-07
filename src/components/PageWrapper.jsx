@@ -8,8 +8,8 @@ const pageVariants = {
 };
 
 const pageTransition = {
-  type: "tween",
-  ease: "anticipate",
+  type: "spring",
+  ease: "easeInOut",
   duration: 0.4,
 };
 

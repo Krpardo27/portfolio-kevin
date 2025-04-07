@@ -1,0 +1,69 @@
+[
+  {
+    "company": "Prisa Media Chile",
+    "office": "Desarrollador Digital",
+    "description": "Desarrollador Frontend con experiencia en React JS. Apasionado por crear interfaces intuitivas y dinámicas, con enfoque en rendimiento y accesibilidad.",
+    "date": "2024 - Presente",
+    "img": "prisamedia.jpg",
+    "technologies": [
+      "React JS",
+      "SASS",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Docker",
+      "Node.js",
+      "Ubuntu"
+    ],
+    "responsibilities": [
+      "Desarrollo de aplicaciones web utilizando React JS",
+      "Colaboración con equipos de diseño para implementar interfaces de usuario atractivas.",
+      "Optimización del rendimiento de las aplicaciones web.",
+      "Implementación de mejores prácticas de accesibilidad en el desarrollo frontend.",
+      "Creación de componentes reutilizables y escalables.",
+      "Mantenimiento y actualización de aplicaciones existentes."
+    ]
+  },
+  {
+    "company": "SmartDevice / Heliboss",
+    "office": "Desarrollador Frontend",
+    "description": "Encargado del posicionamiento (SEO), rendimiento de las distintas páginas existentes y el desarrollo de estas. Creación de productos en Prestashop",
+    "date": "2023 - 2024",
+    "img": "heliboss.jpg",
+    "technologies": [
+      "PrestaShop",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Wordpress",
+      "Adobe Photoshop",
+      "Adobe XD"
+    ],
+    "responsibilities": [
+      "Colaboración con equipos de diseño para implementar interfaces de usuario atractivas.",
+      "Optimización del rendimiento de las páginas web.",
+      "Implementación de mejores prácticas de accesibilidad en el desarrollo frontend."
+    ]
+  },
+  {
+    "company": "Fusion Agency",
+    "office": "Desarrollador Frontend",
+    "description": "Encargado del desarrollo y mantención de sitios web, ecommerce y landing pages de clientes, tanto en Chile y en Perú, como regionales.",
+    "date": "2022 - 2023",
+    "img": "fusion.jpg",
+    "technologies": [
+      "HTML",
+      "JavaScript",
+      "Wordpress",
+      "CSS",
+      "Adobe Photoshop",
+      "Adobe XD"
+    ],
+    "responsibilities": [
+      "Desarrollo de aplicaciones web utilizando React JS y Next.js.",
+      "Colaboración con equipos de diseño para implementar interfaces de usuario atractivas.",
+      "Optimización del rendimiento de las aplicaciones web.",
+      "Implementación de mejores prácticas de accesibilidad en el desarrollo frontend."
+    ]
+  }
+]

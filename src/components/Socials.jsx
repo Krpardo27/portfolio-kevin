@@ -6,9 +6,9 @@ import { BsFillBuildingsFill } from "react-icons/bs";
 const Socials = () => {
   return (
     <div>
-      <div className="grid lg:grid-cols-4 grid-cols-2 w-full gap-5 mt-5 lg:p-10 p-5">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 w-full gap-5 mt-5 lg:p-10 p-5">
         <div className="flex w-full justify-center items-center ">
-          <p className="flex items-center gap-2 text-[#989898] font-secondary text-[14px] p-2 hover:text-[#e1e8f0] hover:transition-all duration-300 cursor-pointer">
+          <p className="flex items-center gap-2 text-[#989898] font-secondary text-[14px] p-2 dark:hover:text-[#e1e8f0] hover:text-grisOscuro hover:transition-all duration-300 cursor-pointer">
             <BsFillBuildingsFill className="" />
             PRISA Media Chile
           </p>
@@ -16,7 +16,7 @@ const Socials = () => {
         <div className="flex w-full justify-center items-center">
           <a
             href=""
-            className="text-[#989898] font-secondary text-[14px] flex items-center gap-2  p-2 hover:text-[#e1e8f0] hover:transition-all duration-300"
+            className="text-[#989898] font-secondary text-[14px] flex items-center gap-2  p-2 dark:hover:text-[#e1e8f0] hover:text-grisOscuro hover:transition-all duration-300"
           >
             <BiLogoGmail /> kevin.pardov26@gmail.com
           </a>
@@ -25,7 +25,7 @@ const Socials = () => {
         <div className="flex w-full justify-center items-center">
           <a
             href=""
-            className="text-[#989898] font-secondary text-[14px] flex items-center gap-2  p-2 hover:text-[#e1e8f0] hover:transition-all duration-300"
+            className="text-[#989898] font-secondary text-[14px] flex items-center gap-2  p-2 dark:hover:text-[#e1e8f0] hover:text-grisOscuro hover:transition-all duration-300"
           >
             <FaLinkedinIn /> kevinpardoveas
           </a>
@@ -33,7 +33,7 @@ const Socials = () => {
         <div className="flex w-full justify-center items-center">
           <a
             href=""
-            className="text-[#989898] font-secondary text-[14px] flex items-center gap-2 p-2 hover:text-[#e1e8f0] hover:transition-all duration-300"
+            className="text-[#989898] font-secondary text-[14px] flex items-center gap-2 p-2 dark:hover:text-[#e1e8f0] hover:text-grisOscuro hover:transition-all duration-300"
           >
             <FaGithub />
             Krpardo27
