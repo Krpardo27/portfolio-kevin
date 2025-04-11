@@ -8,8 +8,8 @@ import projects from "../data/projects.json";
 const Projects = () => {
   return (
     <PageWrapper>
-      <section className="relative flex flex-col dark:bg-[#1a1a1a] bg-[#fafafa] lg:p-12 p-2 overflow-y-auto scrollbar-custom max-w-[1300px] overflow-auto mx-auto lg:rounded-lg rounded-lg h-full lg:m-5 shadow-lg drop-shadow-lg">
-        <div className="absolute w-16 h-16 border-t-[3px] border-l-[3px] border-dashed border-[#a5fa98] lg:top-12 lg:left-12 top-2 left-2"></div>
+      <section className="relative flex flex-col dark:bg-[#1a1a1a] bg-[#fafafa] lg:p-12 p-2 overflow-y-auto scrollbar-custom max-w-[1300px] overflow-auto mx-auto lg:rounded-lg h-full lg:m-5 shadow-lg drop-shadow-lg">
+        <div className="absolute w-16 h-16 border-t-[3px] border-l-[3px] border-dashed dark:border-[#a5fa98] border-grisOscuro lg:top-12 lg:left-12 top-2 left-2"></div>
         <div className="flex items-center justify-center w-full flex-col">
           <div className="flex items-center gap-3 mt-10">
             <FaCubes className="text-[#989898] text-[30px]" />
@@ -18,7 +18,7 @@ const Projects = () => {
             </h2>
           </div>
           <div className="flex items-center gap-3 mt-5">
-            <h3 className=" lg:dlex flex gap-5 lg:text-5xl text-3xl font-bold lg:text-[#e1e8f0] text-[#a5fa98] tracking-widest mt-0 lg:mt-5">
+            <h3 className=" font-primary flex gap-5 lg:text-5xl text-3xl font-bold text-grisOscuro dark:text-[#6a7178] tracking-widest mt-0 lg:mt-5">
               Mi
               <span className="text-[#a5fa98]">Portafolio</span>
             </h3>
@@ -29,16 +29,16 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-[#212121] p-5 flex flex-col gap-5 rounded-xl relative h-full"
+              className="dark:bg-[#212121] bg-[#FBFBFB] p-5 flex flex-col gap-5 rounded-xl relative shadow-lg h-full justify-between"
             >
-              <div className="relative rounded-full ">
+              <div className="relative rounded-full">
                 <img
                   src={`${project.image}`}
                   alt={project.title}
-                  className="absolute object-cover rounded-full -right-5 -top-12  w-[80px] h-[80px] z-20  bg-[#212121] p-1 shadow-lg" 
+                  className="absolute object-cover rounded-full -right-5 -top-12 w-[80px] h-[80px] z-20  bg-[#212121] p-1 shadow-lg"
                 />
               </div>
-              <div className="flex flex-col justify-start items-start gap-3">
+              <div className="flex flex-col justify-between items-start gap-3">
                 <h3 className="text-[#a5fa98] font-primary text-xl ">
                   {project.name}
                 </h3>
@@ -56,18 +56,16 @@ const Projects = () => {
                   {project.description}
                 </p>
               </div>
-              <div className="flex justify-between h-full items-center">
+              <div className="flex justify-between items-center">
                 <div className="flex items-center gap-5">
                   <a href={project.githubUrl} target="_blank" className="p-2">
                     <FaGithub className="text-[#eeeeee] bg-[#1a1a1a] rounded-full p-2 text-[40px]" />
                   </a>
-                  <a href="" className="p-2">
-                    2
-                  </a>
                 </div>
                 <div>
-                  <a href="">1</a>
-                  <a href="">2</a>
+                  <a href={project.liveUrl} target="_blank">
+                    Demo
+                  </a>
                 </div>
               </div>
             </div>

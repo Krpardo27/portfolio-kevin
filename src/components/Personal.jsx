@@ -11,7 +11,7 @@ const Personal = () => {
         <img
           src={`${perfil}`}
           alt={`${name}`}
-          className="rounded-lg min-w-[100px] h-[100px] border-[5px] border-[#292929] text-[24px] object-cover"
+          className="rounded-lg min-w-[150px] h-[150px] border-[5px] border-[#292929] text-[24px] object-cover"
         />
       </div>
       <div className="flex flex-col items-center justify-center gap-2">

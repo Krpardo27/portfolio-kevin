@@ -8,8 +8,8 @@ import { PageWrapper } from "../components/PageWrapper";
 const Contact = () => {
   return (
     <PageWrapper>
-      <section className="relative flex flex-col dark:bg-[#1a1a1a] bg-[#fafafa] lg:p-12 p-2 overflow-y-auto scrollbar-custom max-w-[1300px] overflow-auto mx-auto lg:rounded-lg rounded-lg h-full lg:m-5 shadow-lg drop-shadow-lg">
-        <div className="absolute w-16 h-16 border-t-[3px] border-l-[3px] border-dashed border-[#a5fa98] lg:top-12 lg:left-12 top-2 left-2"></div>
+      <section className="relative flex flex-col dark:bg-[#1a1a1a] bg-[#fafafa] lg:p-12 p-2 overflow-y-auto scrollbar-custom max-w-[1300px] overflow-auto mx-auto lg:rounded-lg  h-full lg:m-5 shadow-lg drop-shadow-lg">
+        <div className="absolute w-16 h-16 border-t-[3px] border-l-[3px] border-dashed dark:border-[#a5fa98] border-grisOscuro lg:top-12 lg:left-12 top-2 left-2"></div>
         <div className="flex items-center justify-center w-full flex-col">
           <div className="flex items-center gap-3 mt-10">
             <FaCubes className="text-[#989898] text-[30px]" />
@@ -18,7 +18,7 @@ const Contact = () => {
             </h2>
           </div>
           <div className="flex items-center gap-3 mt-5">
-            <h3 className=" lg:dlex flex gap-5 lg:text-5xl text-3xl font-bold lg:text-[#e1e8f0] text-[#a5fa98] tracking-widest mt-0 lg:mt-5">
+            <h3 className="font-primary flex gap-5 lg:text-5xl text-3xl font-bold text-grisOscuro dark:text-[#6a7178] tracking-widest mt-0 lg:mt-5">
               En
               <span className="text-[#a5fa98]">Contactarme</span>
             </h3>
