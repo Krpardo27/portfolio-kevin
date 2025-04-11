@@ -4,7 +4,7 @@
     "name": "Hospital Proyecto",
     "description": "Proyecto realizado por curso de capacitación de React, donde se desarrolló una aplicación de gestión hospitalaria con funcionalidades como registro de pacientes, citas médicas y gestión de médicos.",
     "image": "https://images.unsplash.com/photo-1661956602116-aa6865609028?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8ZWNvbW1lcmNlfGVufDB8fDB8fHww",
-    "liveUrl": "https://myecommerce-project.netlify.app",
+    "liveUrl": "https://proyecto-hospital-git-main-kevin-pardo-veas-projects.vercel.app/",
     "githubUrl": "https://github.com/Krpardo27/proyecto-hospital",
     "tags": ["React", "Node.js", "MongoDB", "Stripe"]
   },
